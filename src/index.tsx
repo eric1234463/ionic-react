@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { registerIonic } from '@ionic/react';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-registerIonic();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
